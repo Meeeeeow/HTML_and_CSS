@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+      <style>
+         
+          body
+          {
+              background:aqua;
+          }
+          @media screen and (max-width:576px)
+          {
+              body
+              {
+                  background:brown;
+                  font-size: 2.3em;
+              }
+          }
+          @media screen and (min-width:576px) and (max-width:768px)
+          {/*576 px and up*/
+              body
+              {
+               background:red;
+              }
+          }
+          @media screen and (min-width:768px) and (max-width:992px)
+          {
+            body
+              {
+               background:blue;
+                
+              }
+          }
+          @media (min-width:992px) and (max-width:1200px)
+          {
+              body
+              {
+               background:hotpink;
+              }
+          }
+          
+        }
+          
+      </style>
+  </head>
+    <body>
+        <div class="bg-primary  text-danger"><p class="text-center">Simple container</p></div>
+        <div class="d-inline-flex bg-warning">inline flex container</div>
+       
+            <div class="d-flex flex-row">
+                <div class="p-2 bg-primary ">flex row</div>
+                <div class="p-2 bg-primary">flex row1</div>
+                <div class="p-2 bg-primary">flex row2</div>
+            </div>
+        
+        <div class="d-flex flex-row-reverse">
+                <div class="p-2 bg-warning">flex row reverse</div>
+                <div class="p-2 bg-warning ">flex row reverse1</div>
+                <div class="p-2 bg-warning ">flex row reverse2</div>
+            </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col d-flex justify-content-center ">
+                    <p class="bg-danger p-3">box1</p>
+                    <p class="bg-primary p-3">box4</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col  d-flex justify-content-center  mt-2  text-center ">
+                    <p class="bg-warning p-3 mr-5" >box2</p><p class="bg-info p-3 ml-5">box3</p>                    
+                </div>               
+            </div>
+            <div class="row">
+                <div class="col  d-flex flex-row justify-content-center  mt-2  text-center ">
+                    <p class="bg-warning p-3 " >box5</p><p class="bg-light p-3 mr-3 ml-3">box6</p><p class="bg-info p-3">box7</p>                     
+                </div>               
+            </div>
+            <div class="row">
+                <div class="col  d-flex justify-content-center  mt-2  text-center ">
+                    <p class="bg-warning p-3 mr-5" >box8</p><p class="bg-info p-3 ml-5">box9</p>                    
+                </div>               
+            </div>
+        </div>
+        <div class="d-flex flex-row align-items-stretch justify-content-center text-center"  style="min-height:9vh;">
+            <p class="bg-warning text-primary " style="width:10vh;">Box1</p>
+            <p class="bg-primary align-self-start" style="width:10vh;">Box2</p>
+            <p class="bg-warning " style="width:10vh;">Box3</p>
+        </div>
+         <div class="d-flex flex-row align-items-stretch justify-content-center text-center"  style="min-height:9vh;">
+            <p class="bg-warning text-primary " style="width:10vh;">Box4</p>
+            <p class="bg-primary align-self-end" style="width:10vh;">Box5</p>
+            <p class="bg-warning " style="width:10vh;">Box6</p>
+        </div>
+         <div class="d-flex flex-row-reverse align-items-stretch justify-content-center text-center"  style="min-height:9vh;">
+            <p class="bg-warning text-primary " style="width:10vh;">Box7</p>
+            <p class="bg-primary align-self-center" style="width:10vh;">Box8</p>
+            <p class="bg-warning " style="width:10vh;">Box9</p>
+        </div>
+         <div class="d-flex flex-row-reverse align-items-stretch justify-content-center text-center"  style="min-height:9vh;">
+            <p class="bg-warning text-primary " style="width:10vh;">Box7</p>
+            <p class="bg-primary align-self-baseline" style="width:10vh;">Box8</p>
+            <p class="bg-warning " style="width:10vh;">Box9</p>
+        </div>
+         <div class="d-flex flex-row-reverse align-items-stretch justify-content-center text-center"  style="min-height:9vh;">
+            <p class="bg-warning text-primary " style="width:10vh;">Box7</p>
+            <p class="bg-primary align-self-stretch" style="width:10vh;">Box8</p>
+            <p class="bg-warning " style="width:10vh;">Box9</p>
+        </div>
+        <div class="d-flex bg-light">
+  <div class="p-2 flex-grow-1 bg-primary">Flex item</div>
+  <div class="p-2 bg-warning flex-shrink-1">Flex item</div>
+  <div class="p-2 bg-danger">Third flex item</div>
+</div>
+    </body>
+</html>
