@@ -1,0 +1,20 @@
+table{
+    width:100%;
+    border-collapse: collapse;
+}
+th{
+    text-align: center;
+    background:#1a1a1a;
+}
+table tr th h3{
+    color:#ff6a6a;
+    font-size:30px;
+    
+}
+table tr td ul li{
+    display:inline-block;
+    padding:.8rem;
+}
+table tr td ul li a{
+    color:#20b2aa;
+}

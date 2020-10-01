@@ -1,0 +1,39 @@
+
+  
+  .header, .footer {
+    color:white;
+      background-color: #000080;
+      text-align: center;
+      padding:1em;
+  }
+  .footer{
+      clear:left;
+  }
+  .menu ul li{
+      list-style-type: none;
+      background-color:#33b5e5;
+      padding:0.6rem;
+      margin-bottom:0.8rem;
+      
+  }
+  .menu ul li a{
+    text-decoration: none;
+    color:#ffffff;
+  }
+  
+  .menu li:hover {
+    background-color: #0099cc;
+  }
+  .menu {
+    float:left;
+    padding:1em;
+    margin:0;
+    width:25%;
+  }
+  
+  .content {
+    width: 75%;
+    padding:1em;
+
+    
+  }

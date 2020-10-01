@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+.header, .footer {
+    color:white;
+      background-color: #000080;
+      text-align: center;
+      padding:1em;
+  }
+  .nav{
+      display:flex; 
+      flex:1 100%;
+  }
+  .menu{
+      width:25%;
+      padding:1rem;
+      margin:0;
+      background:#eee;
+  }
+  .menu ul li{
+      list-style-type:none;
+      margin-bottom: 0.6rem;
+      padding:0.6rem;
+  }
+  .menu ul li a{
+    text-decoration:none;
+  }
+  .article{
+    
+    padding:1em;
+    width:75%;
+}
+@media only screen and (max-width:768px)
+{
+    
+    .nav{
+        flex-flow: column;
+    }
+    .menu{
+        text-align: center;
+    }
+    .menu{
+        width:100%;
+    }
+    .article{
+        text-align:left;
+    }
+}
+
