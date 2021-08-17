@@ -1,0 +1,24 @@
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+    'header header header header header header'
+    'main menu menu menu menu right'
+    'main menu menu menu menu right'
+    'main menu menu menu menu right'
+    'footer footer footer footer footer footer';
+    grid-gap:120px;
+    padding:20px;
+    background-color: #2196F3;
+}
+.grid-container > div{
+    background-color: rgba(255,255,255,0.7);
+    text-align: center;
+    padding:20px 0;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
