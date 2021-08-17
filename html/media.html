@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+      <style>
+         
+          body
+          {
+              background:aqua;
+          }
+          @media screen and (max-width:576px)
+          {
+              body
+              {
+                  background:brown;
+                  font-size: 2.3em;
+              }
+          }
+          @media screen and (min-width:576px) and (max-width:768px)
+          {/*576 px and up*/
+              body
+              {
+               background:red;
+              }
+          }
+          @media screen and (min-width:768px) and (max-width:992px)
+          {
+            body
+              {
+               background:blue;
+                
+              }
+          }
+          @media (min-width:992px) and (max-width:1200px)
+          {
+              body
+              {
+               background:hotpink;
+              }
+          }
+          
+        }
+          
+      </style>
+  </head>
+    <body>
+        <div class="container bg-primary text-muted">Simple container
+        <div class="row">
+            <div class="col-lg-8 col-xl-6 bg-success font-weight-bold">I am a col-lg-8</div>
+            <div class="col-lg-4 col-xl-6 bg-danger font-weight-bold text-primary">I am a col-lg-4</div>
+        </div></div>
+        <!--grid-->
+        
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-10 col-md-12 col-lg-1 col-xl-3 bg-warning text-center">For smaller size(576-768px) half and for medium(768-992) 1/4 th of 12 </div>
+                <div class="col-sm-2 col-md-3 col-lg-11 col-xl-9 bg-primary text-center">For smaller size(576-768px)half and for medium(768-992) 1/4 th of 12</div>
+                <div class="col-sm-5 col-md-9 col-lg-8 col-xl-5 bg-secondary text-center">For smaller size(576-768px) half and for medium(768-992) 1/4 th of 12</div>
+                <div class="col-sm-7 col-md-3  col-xl-7 bg-success text-center">For smaller size(576-768px) half and for medium(768-992) 1/4 th of 12</div>
+            </div>
+            
+        </div>
+        <div class="container">
+  <div class="row justify-content-md-center">
+    <div class="col col-lg-2 bg-secondary">
+      1 of 3
+    </div>
+    <div class="col-md-auto bg-primary">
+      Variable width content
+    </div>
+    <div class="col col-lg-2  bg-warning">
+      3 of 3
+    </div>
+  </div>
+  <div class="row">
+    <div class="col bg-success">
+      1 of 3
+    </div>
+    <div class="col-md-auto bg-danger">
+      Variable width content
+    </div>
+    <div class="col col-lg-2 bg-dark">
+      3 of 3
+    </div>
+  </div>
+</div>
+        
+        <div class="container">
+  <div class="row">
+    <div class="col-sm-8">col-sm-8</div>
+    <div class="col-sm-4">col-sm-4</div>
+  </div>
+  <div class="row">
+    <div class="col-sm">col-sm</div>
+    <div class="col-sm">col-sm</div>
+    <div class="col-sm">col-sm</div>
+  </div>
+</div>
+        
+    <div class="container">
+ 
+  <div class="row">
+    <div class="col-md-8 bg-primary">.col-md-8</div>
+    <div class="col-6 col-md-4 bg-secondary">.col-6 .col-md-4</div>
+  </div>
+
+  <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+  <div class="row">
+    <div class="col-6 col-md-4 bg-warning">.col-6 .col-md-4</div>
+    <div class="col-6 col-md-4 bg-success">.col-6 .col-md-4</div>
+    <div class="col-6 col-md-4 bg-dark">.col-6 .col-md-4</div>
+  </div>
+
+  <!-- Columns are always 50% wide, on mobile and desktop -->
+  <div class="row">
+    <div class="col-6 bg-primary">.col-6</div>
+    <div class="col-6 bg-light">.col-6</div>
+  </div>
+</div>
+        
+        <br><br><br>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4 bg-primary">i am md-4</div>
+                <div class="col-md-6 bg-danger">i am md-6</div>
+                <div class="col-md-2 bg-success">i am md-2
+                    <div class="row">
+                        <div class="col-md-10 bg-primary">I am half of 3rd col</div>
+                        <div class="col-md-2 bg-danger" >I am half of 3rd col</div><!--style="display:flex; flex-basis:60px;" die korle lekha baire ashbe na but col-md-2 dea ache so etar mane hoina kono dea--> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+         <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-10 col-md-12 col-lg-1 col-xl-3 bg-warning text-center m-5 p-5">For smaller size(576-768px) half and for medium(768-992) 1/4 th of 12 </div>
+                <div class="col-sm-2 col-md-3 col-lg-11 col-xl-9 bg-primary text-center m-4 p-4">For smaller size(576-768px)half and for medium(768-992) 1/4 th of 12</div>
+                <div class="col-sm-5 col-md-9 col-lg-8 col-xl-5 bg-secondary text-center m-3 p-3">For smaller size(576-768px) half and for medium(768-992) 1/4 th of 12</div>
+                <div class="col-sm-7 col-md-3  col-xl-7 bg-success text-center m-2 py-5">For smaller size(576-768px) half and for medium(768-992) 1/4 th of 12</div>
+            </div>
+            
+        </div>
+    </body>

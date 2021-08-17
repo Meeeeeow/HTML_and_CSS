@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <script src="indx.js" type="text/javascript"></script>
+        <style>
+            *{
+                color:whitesmoke;
+            }
+            input[type="submit"] , input[type="reset"]
+            {
+                color:blue;
+            }
+            input , textarea , select , option{
+                color:black;
+            }
+            input[type="file"]
+            {
+                color:whitesmoke;
+            }
+            input{
+                box-sizing: border-box;
+                border:3px solid grey;
+            }
+            input:focus{
+                border: 3px solid darkblue;
+            }
+            textarea{
+                resize:none;
+            }
+        </style>
+        <meta name="author" content="sakib">
+        <meta name="keywords" content="HTML CSS JS">
+        <meta name="description" content="Html form">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initital-scale=1.0">
+    </head>
+    <body style="background-image: url(images/899389a36c0dc124337a15bbac3d5d80.jpg);">
+        <form action="list.html" method="POST" target="_blank"  enctype="multipart/form-data">
+            <fieldset style="width:250px; margin:auto;">
+                <legend>User personal Info</legend>
+                <div style="text-align: center; font-weight: bold;">Please fill up this form.</div>
+                <label for="name">Enter Name: </label><br>
+                <input type="text" name="fullname" placeholder="Enter your name" style="width:150px;" required autofocus><br><br>
+                <label for="email">Enter email:</label><br>
+                <input type="email" name="email" placeholder="Enter your password" style="width:150px;" required ><br><br>
+                <label for="passowrd">Enter password:</label><br>
+                <input type="password" name="password" placeholder="Enter your password" style="width:150px;" required><br><br>
+                <label for="birthdate">Enter Your birthdate:</label><br>
+                <input type="date" name="birthdate" style="width:150px;"><br><br>
+                <label for="gender">Enter gender:</label><br>
+                <input type="radio" name="gender" value="Male" id="g1"> <label for="gendermale">Male</label><br>
+                <input type="radio" name="gender" value="Female" id="g2"> <label for="genderfemale">Female</label><br><br>
+                <label for="edu">Educational Background:</label><br>
+                <input type="checkbox" name="SSC" value="SSC"> <label for="SSC">SSC</label>
+                <input type="checkbox" name="HSC" value="HSC"> <label for="HSC">HSC</label>
+                <input type="checkbox" name="Bachelors" value="Bachelors"> <label for="Honours">Bachelors</label>
+                <input type="checkbox" name="Masters" value="Masters"> <label for="Masters">Masters</label><br><br>
+                <label for="location">Enter Your Location:</label>
+                <select name ="district" style="width:150px;">
+                    <option value="Dhaka">Dhaka</option>
+                    <option value="rajshahi">Rajshahi</option>
+                    <option value="barishal">Barishal</option>
+                    <option value="Kustia">kustia</option>
+                    <option value="Chattogram">Chattogram</option>
+                </select><br><br>
+                <label for="passowrd">Nationality:</label><br>
+                <input type="text" name="nation" value="Bangladeshi" style="width:150px;" disabled><br><br>
+                <label for="address">Enter Full Address:</label><br>
+                <textarea cols="33"></textarea><br><br>
+                <label for="contact">Enter Contant Info:</label><br>
+                <input type="number" placeholder="01XX.." name="contactinfo" ><br><br>
+               
+                <label for="Submission">Your Works:</label><br>
+                <input type="file" name="newfile"><br><br>
+                <label for="link">Enter how we can reach you(URL):</label><br>
+                <input type="url" placeholder="https://www.XX.." name="website" autocomplete="on"><br><br>
+                <label for ="workexp">Evaluate your own work</label>
+                <input type="range" min="1" max="10" value="5" id="valuework"><br><br>
+                <div style="margin-top: 2.5rem;">
+                    <input type="submit" value="Update Now" onclick="myFunction()">
+                    <input type="reset" value="Reset" style="float:right;" >
+                </div>
+            </fieldset>
+        </form>
+    </body>
+</html>

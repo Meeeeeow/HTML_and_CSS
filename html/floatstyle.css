@@ -1,0 +1,59 @@
+*{
+    box-sizing:border-box;
+}
+p
+{
+    text-align: center;
+}
+.box1
+{
+    float:left;
+    width:33.33%;
+    padding:45px;
+    
+    
+}
+.clear::after
+{
+    content:"";
+    clear:both;
+    display:table;
+}
+
+.img1
+{
+    float:left;
+    width:33.33%;
+    padding:60px;
+    background:red;
+}
+.flex-container
+{
+    margin-top: 25px;
+    background:linear-gradient(to right,rgb(0,0,255),rgba(255,0,0,0.3));
+    display: flex;
+    flex-direction:row;
+    /*flex-wrap: wrap;*/
+    
+    
+}
+.flex-container > div
+{
+    
+    /*align-self:center;eta hoche flex container er j child tadr upr kaaj kore etate align items kaaj korbe na*/
+    border:4px solid black;
+    background:red;
+    padding:12px;
+    margin:5px;
+    text-align: center;
+    
+}
+
+.flex-container
+{
+     justify-content: center; /*eta only flex container er upr directly kaaj kore kono child hbe na just parent element r (justify-content:center)*/
+     align-items: center;/*flex start is top and flex end is bottom r justify content e flex start is left and end is right*/
+         
+}
+
+

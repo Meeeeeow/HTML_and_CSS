@@ -1,0 +1,239 @@
+*
+{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+.top-nav
+{
+    display:flex;
+    
+    background: linear-gradient(to bottom right,rgb(0,0,0),rgba(228, 241, 245,0.4));
+    width:100%;
+    height:auto;
+}
+.Logo
+{
+    font-size:40px;
+    padding:18px;
+    flex:1;
+    color:aliceblue;
+}
+.menu
+{
+    flex: 3;
+}
+.menu > ul
+{
+    list-style-type: none;
+    display:flex;
+    flex-flow:row wrap;
+    margin-top: 30px;    
+}
+.menu ul li
+{
+    flex:1;
+    text-align: center;
+}
+.menu ul li a
+{
+    color:cyan;
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight:700;
+}
+.menu ul li a:hover
+{
+    text-decoration: underline;
+    color:brown;
+}
+.banner
+{
+ background:url("Natsume.jpg");
+ width:100%;
+ background-size: cover;
+ padding:20% 0;
+ color:black; 
+ 
+}
+.banner-text
+{
+    text-align: center;
+    width:50%;
+    margin:auto;
+    
+}
+.text-items h2
+{
+  font-size: 3em;
+  text-transform: uppercase;
+  margin-bottom:3px;
+}
+.main/*container*/
+{
+    display:flex;
+    flex: row wrap;
+    padding:10% 10px;
+    justify-content: center;
+    vertical-align: middle;
+    
+}
+.part1,.part2,.part3/*child of main*/
+{
+    border:1px solid black;
+    padding:5% 2%;
+    margin-left:12px;
+    text-align: center;
+    flex-basis:33.33%;
+    
+}
+.part1 h2,.part2 h2,.part3 h2
+{
+    text-align: center;
+    text-transform: uppercase;
+    font-size:30px;
+}
+.part1 p,.part2 p,.part3 p
+{
+    font-size:1.2em;
+}
+.part1 p span,.part2 p span,.part3 p span
+{
+    text-transform: uppercase;
+    font-weight:800;
+    font-size:1.4em;   
+}
+.contact
+{
+    background:url("11.jpg");
+    background-size: cover;
+    padding:6%;
+    position:relative;
+   
+}
+.contact-text-items
+{
+    display:flex;
+    flex-flow:column;   
+    align-items:center;
+    
+}
+.contact-text-items h2
+{
+    margin-bottom:17px;
+    font-size:40px;
+    color:#fff;
+}
+.contact-text-items input[type="text"]
+{
+    width:50%;
+    border-radius:10px;
+    margin-bottom: 17px;
+    padding:15px;
+}
+.contact-text-items textarea
+{
+    border-radius:10px;
+    width:50%;
+    padding:15px;
+    height:150px;
+    margin-bottom: 17px;
+}
+.contact-text-items a
+{
+    display:block;
+    background:#da4b29;
+    color:#fff;
+    font-size:25px;
+    margin-top:20px;
+    padding:15px;
+    text-decoration: none;
+    flex-basis:20%;
+    text-align: center;
+    font-weight: 700;
+}
+@media all and (max-width:400px)
+{
+    .top-nav
+    {
+        flex-direction: column;
+        text-align: center;
+    }
+    .Logo
+    {
+        padding:18px 0 0 ;
+    }
+    .menu ul
+    {
+        flex-direction:column;
+        margin-top: 0;
+        
+    }
+    .menu ul li
+    {
+        padding:2px 0;
+    }
+    .text-items
+    {
+        width:100%;
+    }
+    .text-items h2
+    {
+        font-size: 1.2em;
+    }
+    .main
+    {
+        flex-direction:column;
+        
+    }
+        .part1,.part2,.part3
+    {
+        margin:5px 0;
+    }
+}
+@media all and (max-width:800px)
+{
+    .top-nav
+    {
+        flex-direction: column;
+        text-align: center;
+    }
+    .Logo
+    {
+        padding:18px 0 0 ;
+    }
+    .menu ul
+    {
+        flex-direction:column;
+        margin-top: 0;
+        
+    }
+    .menu ul li
+    {
+        padding:2px 0;
+    }
+    .text-items
+    {
+        width:100%;
+    }
+    .text-items h2
+    {
+        font-size: 1.2em;
+        width:100%;
+    }
+
+    .main
+    {
+        flex-direction:column;
+        
+    }
+    .part1,.part2,.part3
+    {
+        margin:5px 0;
+    }
+    
+}
+
+
+

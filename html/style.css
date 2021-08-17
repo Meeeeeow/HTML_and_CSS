@@ -1,0 +1,153 @@
+body
+{
+    background:white;
+    text-align: justify;
+    
+}
+#heading
+{
+    text-align: center;
+    color:steelblue;
+    font-family: "Playfair Display";
+    
+}
+#anime
+{
+    background-color: cornsilk;
+    
+}
+#manga
+{
+    background-color:rgba(135, 183, 232,0.4);<!--rgb a =red green blue alpha(transparency)-->
+    
+}
+.subhead
+{
+    text-align: center;
+    font-family: serif;
+    text-shadow: 1px white;
+}
+#des
+{
+    font-weight: bolder;
+    font-family: serif;
+    color:hotpink;
+}
+
+a:link
+{
+    color:cadetblue;
+    text-decoration: none; 
+     
+    
+}
+a:visited{
+    color:red;
+    text-decoration:none;
+}
+a:hover{
+    color:royalblue;
+    text-decoration: none;  
+
+}
+a:active{
+    color:greenyellow;
+    text-decoration: none; 
+}
+.intro
+{
+    font-variant: small-caps;
+    font-weight: 700;
+}
+.intro:hover
+{
+    color:darkorange;
+}
+ol li
+{
+    color:darkgreen;
+}
+.background
+{
+    background:steelblue;
+    
+    border:12px dashed black;
+    color:white;
+    background:url("Natsume.jpg");<!--image add-->
+    background-size: cover;<!--contain/pixels size in px or percentage-->
+    background-origin:border-box;<--background image position-->
+    background-blend-mode: screen;<!--background color mode-->
+    background-clip: content-box;<!--how much the bg will proceed-->
+    
+}
+.gradient
+{
+    
+    background:linear-gradient(to bottom left,rgb(69, 138, 209),rgba(116, 147, 179,0.3));<!--gradient to right-->
+    background-size:cover;
+    background-clip:padding-box;
+    border:4px dashed black;
+    font-size: 1.1em;
+    font-family: "Lato",sans-serif;
+    color:floralwhite;
+    margin-bottom: 20px;
+}
+.gradient1
+{
+    
+    background:linear-gradient(45deg,rgb(69, 138, 209),rgba(116, 147, 179,0.3));<!--gradient to right-->
+    background-size:cover;
+    background-clip:padding-box;
+    border:4px dashed black;
+    font-size: 1.1em;
+    color:floralwhite;
+    text-transform: uppercase;
+}
+.episode
+{
+    margin-top:20px;
+    background:repeating-linear-gradient(45deg,rgb(69, 138, 209),rgba(116, 147, 179,0.3));<!--gradient to right-->
+    background-size:cover;
+    background-clip:padding-box;
+    border:4px dashed black;
+    font-size: 1.1em;
+    color:floralwhite;
+}
+.episode1
+{
+    margin-top:20px;
+    background:radial-gradient(circle,red,yellow,green);<!--repeating dea jai but lgbe na r ekhane shape er jagai gradient kothai hbe dea jai but no need-->
+    background-size:cover;
+    background-clip:padding-box;
+    border:4px dashed black;
+    font-size: 1.1em;
+    color:black;
+    text-transform: full-width;
+}
+.gradient2
+{
+    
+    background:repeating-linear-gradient(180deg,blue,pink 15%,steelblue 25%);<!--gradient to right-->
+    background-size:cover;
+    background-clip:padding-box;
+    border:4px dashed black;
+    font-size: 1.1em;
+    font-family: 'Indie Flower', cursive;
+    color:floralwhite;
+    margin-top: 20px;
+    text-transform:capitalize;
+}
+ul
+{
+    font-family: "Montserrat";
+}
+.nyanko
+{
+    width:70%;
+    height: 250px;
+    background: yellow;
+    border:5px dashed green;
+    border-radius:15px;
+    float:right;
+}
+
