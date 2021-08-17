@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: floralwhite;
+}
+ul{
+    list-style-type: none;
+    text-align: center;
+    background-color: rgb(73, 192, 212);
+    padding:0;
+
+    
+}
+ul li a{
+    display:block;
+    padding:10px 0px;
+    text-decoration: none;
+    color:black;
+    font-size: 1.4rem;
+}
+ul li a.active{
+    background-color:lightskyblue;
+}
+ul li a:hover:not(.active){
+    background-color: black;
+    color:white;
+}
